@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://unpkg.com/axist@latest/dist/axist.min.css" />
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+
+    	<div class="valid">
+    	<label for = "name">Name:</label>
+    	<input type="text" id = "name" required >
+
+    	<label for = "surname">Surname:</label>
+    	<input type="text" id = "surname" required >
+
+    	<label for = "ID number">ID Number:</label>
+        <input type="number" id = "ID number" maxlength="13" required>
+
+        <label for ="bdate">Date of Birth:</label> 
+        <input type="text" placeholder="dd" id="bday" required>
+
+        <input type="text" placeholder="mm" id="bmonth" required>
+        <input type="text" placeholder="YYYY" id="byear" required>
+        
+        <button>Validate</button>
+        <p>Validation</p>
+        
+           
+        </div>
+<!--         imported the moment js function - to use it in validating correct format of DateOfBirth
+ -->        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+        <script src = "function.js"></script>
+    </form>   
+</body>
+</html>

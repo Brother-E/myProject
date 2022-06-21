@@ -1,0 +1,16 @@
+body {
+        text-align: ""; }
+
+
+div {
+	    display: ""; }
+
+
+input, button {
+	    display: "";
+	    padding: 8px 15px;}
+
+
+#bday, #bmonth { width: 8%; }
+
+#byear { width: 10%; }
